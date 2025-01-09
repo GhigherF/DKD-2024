@@ -1,0 +1,61 @@
+﻿Сборка начата 20.12.2024 18:03:22.
+Уровень детализации журнала: Normal.     1>Проект "C:\DKD-2024\DKD-2024\DKD-2024.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "DKD-2024\Debug\DKD-2024.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "DKD-2024\Debug\DKD-2024.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"DKD-2024\Debug\\" /Fd"DKD-2024\Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt PolishNotation.cpp Semantic.cpp
+         PolishNotation.cpp
+     1>C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,37): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+     1>C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,70): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+     1>C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,96): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+     1>C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,123): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+     1>C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,149): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+     1>C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,179): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+     1>C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,203): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+     1>C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,232): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+     1>C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,258): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+         Semantic.cpp
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DKD-2024\DKD-2024\Debug\DKD-2024.exe" /INCREMENTAL /ILK:"DKD-2024\Debug\DKD-2024.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\DKD-2024\DKD-2024\Debug\DKD-2024.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DKD-2024\DKD-2024\Debug\DKD-2024.lib" /MACHINE:X86 "DKD-2024\Debug\DKD-2024.obj"
+         "DKD-2024\Debug\Error.obj"
+         "DKD-2024\Debug\FST.obj"
+         "DKD-2024\Debug\Generator.obj"
+         "DKD-2024\Debug\Greibah.obj"
+         "DKD-2024\Debug\In.obj"
+         "DKD-2024\Debug\IT.obj"
+         "DKD-2024\Debug\FlexAnaliz.obj"
+         "DKD-2024\Debug\Log.obj"
+         "DKD-2024\Debug\LT.obj"
+         "DKD-2024\Debug\MFST.obj"
+         "DKD-2024\Debug\Parm.obj"
+         "DKD-2024\Debug\pch.obj"
+         "DKD-2024\Debug\PolishNotation.obj"
+         "DKD-2024\Debug\Semantic.obj"
+         DKD-2024.vcxproj -> C:\DKD-2024\DKD-2024\Debug\DKD-2024.exe
+       FinalizeBuildStatus:
+         Файл "DKD-2024\Debug\DKD-2024.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "DKD-2024\Debug\DKD-2024.tlog\DKD-2024.lastbuildstate".
+     1>Сборка проекта "C:\DKD-2024\DKD-2024\DKD-2024.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\DKD-2024\DKD-2024\DKD-2024.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,37): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+         C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,70): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+         C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,96): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+         C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,123): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+         C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,149): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+         C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,179): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+         C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,203): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+         C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,232): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+         C:\DKD-2024\DKD-2024\PolishNotation.cpp(168,258): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+
+    Предупреждений: 9
+    Ошибок: 0
+
+Прошло времени 00:00:01.91

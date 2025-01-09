@@ -1,0 +1,27 @@
+﻿Сборка начата 13.10.2023 12:04:26.
+Уровень детализации журнала: Normal.     1>Проект "D:\Study\kurs\KOD-2022\Generation\GenLib\GenLib.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "D:\Study\kurs\KOD-2022\Generation\x64\Debug\".
+         Создание каталога "x64\Debug\GenLib.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\GenLib.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt GenLib.cpp
+         GenLib.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Study\kurs\KOD-2022\Generation\x64\Debug\GenLib.exe" /INCREMENTAL /ILK:"x64\Debug\GenLib.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Study\kurs\KOD-2022\Generation\x64\Debug\GenLib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Study\kurs\KOD-2022\Generation\x64\Debug\GenLib.lib" /MACHINE:X64 x64\Debug\GenLib.obj
+     1>MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+     1>D:\Study\kurs\KOD-2022\Generation\x64\Debug\GenLib.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+     1>Сборка проекта "D:\Study\kurs\KOD-2022\Generation\GenLib\GenLib.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\Study\kurs\KOD-2022\Generation\GenLib\GenLib.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+         D:\Study\kurs\KOD-2022\Generation\x64\Debug\GenLib.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:02.29

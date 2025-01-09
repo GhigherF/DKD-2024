@@ -1,0 +1,10 @@
+string function gg(small a)
+[
+return a;
+]
+main
+[
+announce small a;
+gg();
+a=1/0;
+]
